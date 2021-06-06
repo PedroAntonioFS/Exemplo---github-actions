@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-t615kb-z(l_mujjg$ffx&l!3&%g89nyi)#^=dhn0!kgtj1h$o$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://PedroAntonioFS.github.io/Exemplo-github-actions/']
 
 
 # Application definition
