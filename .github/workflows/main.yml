@@ -1,5 +1,4 @@
-- name: Deploy to Heroku
-  uses: AkhileshNS/heroku-deploy@v3.12.12
+- name: Build & deploy django project
 
   on:
     push:
@@ -43,3 +42,6 @@
               heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
               heroku_email_address: '${{ secrets.HEROKU_EMAIL }}'
               use_git: true
+
+- name: Deploy to Heroku
+  uses: AkhileshNS/heroku-deploy@v3.12.12
