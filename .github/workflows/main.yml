@@ -36,7 +36,7 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
         - name: Deploy django to heroku
-          uses: PedroAntonioFS/heroku-django-deploy@v0.68 
+          uses: PedroAntonioFS/Exemplo-github-actions@v1
           with: 
             heroku_app_name : ${{ secrets.HEROKU_APP_NAME }}
             heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
