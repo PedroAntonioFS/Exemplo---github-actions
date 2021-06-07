@@ -1,5 +1,6 @@
 - name: Deploy to Heroku
-  uses: AkhileshNS/heroku-deploy@v3.12.12
+  uses: AkhileshNS/heroku-deploy@79ef2ae4ff9b897010907016b268fd0f88561820
+
 - name: Build & deploy django project
 
   on:
